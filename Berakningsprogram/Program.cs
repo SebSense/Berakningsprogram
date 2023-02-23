@@ -27,6 +27,14 @@
                     double Y = double.Parse(Console.ReadLine());
                     Console.WriteLine($"{X} * {Y} = {X * Y}");
                 }
+                else if (command == "minus")
+                {
+                    Console.Write("Tal 1: ");
+                    double X = double.Parse(Console.ReadLine());
+                    Console.Write("Tal 2: ");
+                    double Y = double.Parse(Console.ReadLine());
+                    Console.WriteLine($"{X} - {Y} = {X - Y}");
+                }
                 else if (command == "hjälp")
                 {
                     Console.WriteLine($"Tyvärr ej implementerat!");
